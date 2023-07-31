@@ -1,0 +1,40 @@
+#card-1 {
+    background-image: url('../assets/images/tem-bg-card2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#user-1 {
+    background-image: url('../assets/images/tem-profile2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#card-2 {
+    background-image: url('../assets/images/tem-bg-card3.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#user-2 {
+    background-image: url('../assets/images/tem-profile3.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#card-3 {
+    background-image: url('../assets/images/tem-bg-card4.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#user-3 {
+    background-image: url('../assets/images/tem-profile4.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

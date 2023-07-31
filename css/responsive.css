@@ -1,0 +1,38 @@
+@media screen and (max-width: 600px) and (orientation: portrait) {
+  body {
+    background-color: brown !important;
+    overflow-x: hidden !important;
+  }
+
+  section,
+  footer {
+    width: 100% !important;
+    overflow-x: hidden !important;
+  }
+
+  section.landing-page {
+    width: 100%;
+  }
+
+  .overview-landing-content {
+    width: 80%;
+  }
+
+  .overview-landing-content .column {
+    padding-left: .2em !important;
+    padding-top: 1em !important;
+  }
+
+  .overview-landing-content .small-text {
+    color: #f4f5f5;
+  }
+
+  .overview-landing-content .hight-text {
+    font-size: 40px;
+  }
+
+  .overview-landing-content .normal-text {
+    margin-top: 1.5em !important;
+  }
+
+}

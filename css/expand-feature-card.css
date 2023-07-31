@@ -1,0 +1,128 @@
+/* Normal design ui */
+.awesome-project .expand-feature .side-content {
+    position: relative;
+}
+
+.awesome-project .expand-feature .side-content .background-temp-card {
+    width: 670px;
+    height: 450px;
+    background-color: cornflowerblue;
+}
+
+.awesome-project .expand-feature .side-content .user-card-temp {
+    width: 450px;
+    height: 195px;
+    background-color: var(--color-white);
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: var(--default-margin);
+    padding-right: var(--default-margin);
+    box-shadow: -2px 13px 67px 8px rgba(0,0,0,0.21);
+    -webkit-box-shadow: -2px 13px 67px 8px rgba(0,0,0,0.21);
+    -moz-box-shadow: -2px 13px 67px 8px rgba(0,0,0,0.21);
+    border-radius: .5em;
+    position: relative;
+    top: -120px;
+    left: 35%;
+}
+
+.quote {
+    line-height: 1.6em;
+} 
+
+.awesome-project .expand-feature .side-content .user-card-temp .row,
+.awesome-project .reverse-expand-feature .side-content .user-card-temp .row {
+    margin-top: 2em;
+    align-items: center;
+}
+
+.awesome-project .expand-feature .side-content .user-card-temp .row .circle-profile,
+.awesome-project .reverse-expand-feature .side-content .user-card-temp .row .circle-profile {
+    margin-left: .5em;
+}
+
+.awesome-project .expand-feature .side-content .user-card-temp .row .column,
+.awesome-project .reverse-expand-feature .side-content .user-card-temp .row {
+    padding-left: 0;
+}
+
+.awesome-project .expand-feature .side-content .user-card-temp .row .username,
+.awesome-project .reverse-expand-feature .side-content .user-card-temp .row .username {
+    font-weight: 600;
+    margin-bottom: .1em;
+}
+
+.awesome-project .expand-feature .right-content {
+    margin-left: 9%;
+    margin-top: 5em;
+    text-align: start;
+    padding: 0;
+}
+
+.awesome-project .reverse-expand-feature .left-content {
+    margin-top: 5em;
+    text-align: start;
+    padding: 0;
+}
+
+.awesome-project .expand-feature .right-content .big-text,
+.awesome-project .reverse-expand-feature .left-content .big-text {
+    font-weight: 300;
+}
+
+.awesome-project .expand-feature .right-content p,
+.awesome-project .reverse-expand-feature .left-content p {
+    margin-left: 0;
+    margin-top: 1.5em;
+    color: var(--color-grey);
+    font-weight: normal;
+}
+
+.awesome-project .expand-feature .right-content a div,
+.awesome-project .reverse-expand-feature .left-content a div {
+    color: var(--color-grey);
+    margin-left: 0;
+    margin-top: 5em;
+}
+
+.awesome-project .expand-feature .right-content a div .ic,
+.awesome-project .reverse-expand-feature .left-content a div .ic {
+    margin-right: 5px;
+}
+
+
+
+/* REVERSE UI EXPAND FEATURE */
+.awesome-project .reverse-expand-feature .left-content {
+    margin-right: 9%;
+}
+
+.awesome-project .reverse-expand-feature .side-content {
+    position: relative;
+    padding-right: 0;
+}
+
+.awesome-project .reverse-expand-feature .side-content .background-temp-card {
+    width: 670px;
+    height: 450px;
+    background-color: cornflowerblue;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.awesome-project .reverse-expand-feature .side-content .user-card-temp {
+    width: 450px;
+    height: 195px;
+    background-color: var(--color-white);
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: var(--default-margin);
+    padding-right: var(--default-margin);
+    box-shadow: -2px 13px 67px 8px rgba(0,0,0,0.21);
+    -webkit-box-shadow: -2px 13px 67px 8px rgba(0,0,0,0.21);
+    -moz-box-shadow: -2px 13px 67px 8px rgba(0,0,0,0.21);
+    border-radius: .5em;
+    position: relative;
+    top: -120px;
+    right: 10%;
+}
