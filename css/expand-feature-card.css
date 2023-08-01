@@ -17,9 +17,9 @@
     padding-bottom: 2em;
     padding-left: var(--default-margin);
     padding-right: var(--default-margin);
-    box-shadow: -2px 13px 67px 8px rgba(0,0,0,0.21);
     -webkit-box-shadow: -2px 13px 67px 8px rgba(0,0,0,0.21);
     -moz-box-shadow: -2px 13px 67px 8px rgba(0,0,0,0.21);
+    box-shadow: -2px 13px 67px 8px rgba(0,0,0,0.21);
     border-radius: .5em;
     position: relative;
     top: -120px;
@@ -118,9 +118,9 @@
     padding-bottom: 2em;
     padding-left: var(--default-margin);
     padding-right: var(--default-margin);
-    box-shadow: -2px 13px 67px 8px rgba(0,0,0,0.21);
     -webkit-box-shadow: -2px 13px 67px 8px rgba(0,0,0,0.21);
     -moz-box-shadow: -2px 13px 67px 8px rgba(0,0,0,0.21);
+    box-shadow: -2px 13px 67px 8px rgba(0,0,0,0.21);
     border-radius: .5em;
     position: relative;
     top: -120px;

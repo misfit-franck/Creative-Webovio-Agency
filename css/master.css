@@ -149,7 +149,7 @@ div.hight-text {
 
 /* landing page - start */
 .landing-page {
-    width: 100%;
+    width: 100% !important;
     height: 85vh;
     background-image: url(../assets/images/landing-cover.png);
     background-repeat: no-repeat;
@@ -275,6 +275,7 @@ div.hight-text {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    object-fit: contain !important;
 }
 
 .log-entreprise-station .container .left-size {
@@ -357,6 +358,7 @@ div.hight-text {
     justify-content: space-between;
     margin-top: 3em;
     align-items: start;
+    flex-wrap: wrap;
 }
 
 
@@ -528,6 +530,9 @@ footer .footer-body {
     margin-right: .4em;
     cursor: pointer;
     padding: .2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .footer-body-content .content-block .social-link .circle:hover {
